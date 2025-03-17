@@ -255,6 +255,12 @@
             height: 50px; /* Adjust icon size */
             margin-bottom: 5px;
         }
+
+        .service-icon {
+            width: 1000px; /* Adjust size to be 20 times larger */
+            height: auto; /* Maintain aspect ratio */
+            margin-bottom: 10px; /* Space between icon and text */
+        }
     </style>
 </head>
 <body>
@@ -341,46 +347,46 @@
         
         <div class="faq-item">
             <div class="faq-question">How long does it take to download content?</div>
-            <div class="faq-answer">Usually 5-15 minutes. You can track the progress in the "Requests" tab of Overseerr.</div>
+            <div class="faq-answer" style="display: none;">Usually 5-15 minutes. You can track the progress in the "Requests" tab of Overseerr.</div>
         </div>
         
         <div class="faq-item">
             <div class="faq-question">Can I request unreleased movies or TV shows?</div>
-            <div class="faq-answer">Yes, they will automatically become available on Plex once they're released.</div>
+            <div class="faq-answer" style="display: none;">Yes, they will automatically become available on Plex once they're released.</div>
         </div>
         
         <div class="faq-item">
             <div class="faq-question">Can I record live TV?</div>
-            <div class="faq-answer">Yes, all recordings will be available in the "Recordings" library on Plex.</div>
+            <div class="faq-answer" style="display: none;">Yes, all recordings will be available in the "Recordings" library on Plex.</div>
         </div>
         
         <div class="faq-item">
             <div class="faq-question">Can I request specific seasons of a TV show?</div>
-            <div class="faq-answer">Yes, Overseerr allows you to choose specific seasons when making requests.</div>
+            <div class="faq-answer" style="display: none;">Yes, Overseerr allows you to choose specific seasons when making requests.</div>
         </div>
         
         <div class="faq-item">
             <div class="faq-question">Is there a request limit?</div>
-            <div class="faq-answer">There's no strict limit, but please be considerate and only request content you genuinely intend to watch to conserve server resources.</div>
+            <div class="faq-answer" style="display: none;">There's no strict limit, but please be considerate and only request content you genuinely intend to watch to conserve server resources.</div>
         </div>
 
         <div class="faq-item">
             <div class="faq-question">What should I do if I have issues with missing subtitles or audio?</div>
-            <div class="faq-answer">If you encounter issues with missing subtitles, audio problems, or incorrect language, please use the "Report Issue" button in Plex or Overseerr to notify support.</div>
+            <div class="faq-answer" style="display: none;">If you encounter issues with missing subtitles, audio problems, or incorrect language, please use the "Report Issue" button in Plex or Overseerr to notify support.</div>
         </div>
     </div>
 
     <!-- Service Links Section -->
     <div class="service-links">
-        <h2>Service Links</h2>
-        <p>Once you've created your accounts, you can access the services below:</p>
+        <h2>Web Links</h2>
+        <p>Once you've created your accounts and configured tailscale on your device, you can access the services below:</p>
         <a href="http://100.106.166.84:32400/web/index.html#!/" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Plex_logo.svg/1200px-Plex_logo.svg.png" alt="Plex Logo">
-            Plex
+            <img src="plex.png" alt="Plex Logo" class="service-icon">
+            <div>Plex</div>
         </a>
         <a href="http://100.106.166.84:5055/" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Overseerr_Logo.svg/1200px-Overseerr_Logo.svg.png" alt="Overseerr Logo">
-            Overseerr
+            <img src="overseerr.png" alt="Overseerr Logo" class="service-icon">
+            <div>Overseerr</div>
         </a>
     </div>
 
