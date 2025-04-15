@@ -251,15 +251,16 @@
         }
 
         .service-links img {
-            width: 50px; /* Adjust icon size */
-            height: 50px; /* Adjust icon size */
+            width: 200px; /* Make both logos 200px */
+            height: 200px; /* Make it square */
             margin-bottom: 5px;
         }
 
         .service-icon {
-            width: 1000px; /* Adjust size to be 20 times larger */
-            height: auto; /* Maintain aspect ratio */
-            margin-bottom: 10px; /* Space between icon and text */
+            width: 200px;
+            height: 200px;
+            margin-bottom: 10px;
+            object-fit: contain; /* Ensure the image maintains its aspect ratio */
         }
 
         .text-spacing {
