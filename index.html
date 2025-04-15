@@ -288,13 +288,18 @@
                 <div class="step-number">1</div>
                 <div class="step-title">Set Up Payment</div>
                 <div class="step-content">
-                    Choose your plan:
+                    <p>Choose your preferred plan:</p>
                     <ul>
-                        <li>$15/month: Movies & TV</li>
-                        <li>$30/month: Movies, TV & Live TV</li>
+                        <li>$15/month — Movies & TV</li>
+                        <li>$20/month — Movies, TV & Live TV</li>
                     </ul>
-                    Pay via <a href="https://support.apple.com/en-us/105013#:~:text=with%20Apple%20Cash.-,On%20your%20iPhone%2C%20open%20the%20Wallet%20app.,tap%20your%20Apple%20Cash%20card.&text=%2C%20tap%20Recurring%20Payments%2C%20then%20tap,you'd%20like%20them%20sent." target="_blank">Apple Cash</a>. 
-                    <p>To set up recurring payments, follow the instructions on the Apple Cash page. Make sure to enable notifications for payment confirmations.</p>
+                    <p>Live TV access also requires a plex pass subscription. More info <a href="https://www.plex.tv/plex-pass/" target="_blank">here</a>.</p>
+                    <p>How to Pay:</p>
+                    <ol>
+                        <li>Open the Wallet app on your iPhone</li>
+                        <li>Pay using Apple Cash</li>
+                        <li>Set up recurring monthly payments for your selected plan</li>
+                    </ol>
                 </div>
             </div>
             
@@ -302,17 +307,33 @@
                 <div class="step-number">2</div>
                 <div class="step-title">Get Access</div>
                 <div class="step-content">
-                    <p>After payment, send me your email address to receive invite links to Plex and Tailscale.</p>
-                    <p>Accept invites and create accounts on both platforms. Make sure to check your spam folder if you don't see the invite emails.</p>
+                    <p>After payment is confirmed:</p>
+                    <ol>
+                        <li>Send your email address to me</li>
+                        <li>You'll receive two invites via email:
+                            <ul>
+                                <li>Plex invite</li>
+                                <li>Tailscale invite</li>
+                            </ul>
+                        </li>
+                        <li>Check your spam folder if you don't see them.</li>
+                        <li>Use the same email address to accept and sign up for both.</li>
+                    </ol>
                 </div>
             </div>
             
             <div class="step-card">
                 <div class="step-number">3</div>
-                <div class="step-title">Set Up Tailscale</div>
+                <div class="step-title">Set Up Tailscale (VPN Access)</div>
                 <div class="step-content">
-                    <p>Download and set up <a href="https://tailscale.com/download" target="_blank">Tailscale</a>. Enable VPN on demand.</p>
-                    <p>Follow the installation instructions provided on the Tailscale website. Once installed, log in with the same email you used for the invite.</p>
+                    <ol>
+                        <li>Once you have created a tailscale account and accepted the invite download the app from the official Tailscale website <a href="https://tailscale.com/download" target="_blank">here</a></li>
+                        <li>Install it on your device</li>
+                        <li>Open the app and log in using your invited email</li>
+                        <li>When logging in, join the tailnet named after my email not your email</li>
+                        <li>Go to Settings → Enable VPN on demand</li>
+                        <li>Verify you're connected in the Tailscale dashboard</li>
+                    </ol>
                 </div>
             </div>
             
@@ -320,26 +341,47 @@
                 <div class="step-number">4</div>
                 <div class="step-title">Set Up Plex</div>
                 <div class="step-content">
-                    <p>Download <a href="https://www.plex.tv/media-server-downloads/?cat=plex+desktop&plat=macos#plex-app" target="_blank">Plex</a> and pin Stellardrive libraries.</p>
-                    <p>After installation, log in with your Plex account. You can customize your library settings to include your favorite genres and categories.</p>
+                    <ol>
+                        <li>Download Plex from the <a href="https://www.plex.tv/media-server-downloads/?cat=plex+desktop&plat=macos#plex-app" target="_blank">official website</a></li>
+                        <li>Install and log in with your Plex account</li>
+                        <li>Go to the "Libraries" section</li>
+                        <li>Pin these Stellardrive libraries:
+                            <ul>
+                                <li>Movies</li>
+                                <li>TV Shows</li>
+                                <li>Live TV (if subscribed to live tv)</li>
+                                <li>Recordings (if subscribed to live tv)</li>
+                            </ul>
+                        </li>
+                    </ol>
                 </div>
             </div>
             
             <div class="step-card">
                 <div class="step-number">5</div>
-                <div class="step-title">Request Content</div>
+                <div class="step-title">Request Content (Overseerr)</div>
                 <div class="step-content">
-                    <p>Search for and request movies and TV shows through <a href="http://100.106.166.84:5055/" target="_blank">Overseerr</a>.</p>
-                    <p>You can also check the status of your requests in the "Requests" tab.</p>
-                    <p>Add the website to your homescreen for easy access by following the instructions <a href="https://www.howtogeek.com/196087/how-to-add-websites-to-the-home-screen-on-any-smartphone-or-tablet/" target="_blank">here</a>.</p>
+                    <ol>
+                        <li>Visit <a href="http://100.106.166.84:5055/" target="_blank">Overseerr</a> in your browser</li>
+                        <li>Log in using your Plex credentials</li>
+                        <li>Search for any movie or TV show</li>
+                        <li>Click "Request"</li>
+                        <li>For shows, select specific seasons if needed</li>
+                        <li>Track your requests in the "Requests" tab</li>
+                        <li>Add Overseerr to your home screen for quick access by following the instructions <a href="https://www.howtogeek.com/196087/how-to-add-websites-to-the-home-screen-on-any-smartphone-or-tablet/" target="_blank">here</a></li>
+                    </ol>
                 </div>
             </div>
 
             <div class="step-card">
                 <div class="step-number">6</div>
-                <div class="step-title">Enjoy!</div>
+                <div class="step-title">Enjoy Your Content</div>
                 <div class="step-content">
-                    <p>Now sit back, relax, and enjoy your favorite movies and TV shows!</p>
+                    <ol>
+                        <li>Open Plex on your preferred device</li>
+                        <li>Browse your pinned libraries</li>
+                        <li>Select your content and start watching!</li>
+                    </ol>
                 </div>
             </div>
         </div>
